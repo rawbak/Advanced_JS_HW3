@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+    color: #363434;
+
+}
+
+a {
+    text-decoration: none;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    height: 48px;
+    width: 212px;
+    font-size: 14px;
+    border: 2px solid #363434;
+    border-radius: 5px;
+    color: rgb(8, 82, 28);
+    background-color: #f6eeee;
+}
+
+a:hover {
+
+    background-color: rgb(8, 82, 28);
+    color: #fff;
+}
+
+input,
+#button {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 225px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #f6eeee;
+    margin-bottom: 30px;
+}
+
+.title-head {
+    color: rgb(8, 82, 28);
+}
+
+.productName:hover {
+    color: rgb(8, 82, 28);
+}
+
+#button, .delete {
+    margin: 10px 0px;
+    padding: 5px 10px;
+    color: rgb(8, 82, 28);
+    border-radius: 5px;
+    background-color: #f6eeee;
+}
+
+#button, .delete:hover {
+    background-color: rgb(8, 82, 28);
+    color: #fff;
+}
+
+.reviews-box {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.errcomment-text {
+    font-size: 12px;
+    color: red;
+}
